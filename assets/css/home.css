@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#page-heading {
+  text-align: center;
+  margin-top: 25px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.container {
+  margin: auto;
+  width: 40%;
+  border: 0.5px solid rgb(228, 228, 228);
+}
+.contact {
+  list-style: none;
+  padding: 8px;
+  background-color: #39a2db;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.delete-button {
+  width: 10%;
+  /* padding: 3px;*/
+  text-align: center;
+  /*margin-top: 5px;*/
+}
+.delete-button a:hover {
+  color: white;
+  background-color: red;
+}
+.contact:hover {
+  background-color: grey;
+}
+ul li p {
+  display: inline-block;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+input {
+  border: 0;
+  outline: 0;
+  padding: 5px;
+  /*margin: 5px;*/
+}
+/*Remove arrows from input number field*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button {
+  padding: 5px;
+  color: white;
+  background-color: grey;
+  border: 0;
+  outline: 0;
+}
